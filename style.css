@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #2c2c3e;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#guessBtn {
+  background: #61dafb;
+  color: #000;
+}
+
+#restartBtn {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.history {
+  margin-top: 10px;
+  color: #ffdd57;
+  font-size: 1rem;
+}
+
+.attempts {
+  margin-top: 5px;
+  color: #aaa;
+  font-size: 0.9rem;
+}

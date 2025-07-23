@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Number Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Guess the Number (1–20)</h1>
+    <p class="subtitle">Can you guess the secret number? Get hints and become a champion!</p>
+
+    <input type="number" id="guessInput" placeholder="Enter guess..." min="1" max="20">
+    <button id="guessBtn">Submit</button>
+
+    <div id="feedback" class="message"></div>
+    <div id="history" class="history"></div>
+    <div id="attempts" class="attempts">Attempts: 0</div>
+
+    <button id="restartBtn" class="hidden">🔁 Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
